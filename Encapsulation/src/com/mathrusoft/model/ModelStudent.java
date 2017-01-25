@@ -1,7 +1,7 @@
 package com.mathrusoft.model;
 
 public class ModelStudent {
-	private String name;
+	 String name;
 	private String USN;
 	private String branch;
 
