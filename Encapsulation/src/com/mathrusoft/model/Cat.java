@@ -9,6 +9,7 @@ public class Cat implements AnimalBehavior{
 		return "Mew Mew";
 	}
 
+
 	@Override
 	public String speakFromCallback(String speak) {
 		// TODO Auto-generated method stub
