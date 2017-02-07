@@ -12,7 +12,13 @@
             android:label="Activity Temp"
             android:name=".MyActivity">
         </activity>
+
+
+
         <activity android:name=".activity.ActivityAutoCreated">
+        </activity>
+
+        <activity android:name=".activity.ActivityDemoWidget">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
