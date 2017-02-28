@@ -21,6 +21,7 @@ import com.mathrusoft.demonavigationactivity.fragment.FragmentCamera;
 import com.mathrusoft.demonavigationactivity.fragment.FragmentGallery;
 import com.mathrusoft.demonavigationactivity.fragment.FragmentSettings;
 import com.mathrusoft.demonavigationactivity.fragment.FragmentSlideShow;
+import com.mathrusoft.demonavigationactivity.fragment.FragmentStudentList;
 
 public class ActivityMain extends AppCompatActivity {
 
@@ -107,14 +108,15 @@ public class ActivityMain extends AppCompatActivity {
                 changeFragment(new FragmentSettings());
                 Toast.makeText(mContex, "nav_manage clicked", Toast.LENGTH_SHORT).show();
             } else if (id == R.id.nav_share) {
-
-
                 Toast.makeText(mContex, "nav_share clicked", Toast.LENGTH_SHORT).show();
             } else if (id == R.id.nav_send) {
-
-
                 Toast.makeText(mContex, "nav_send clicked", Toast.LENGTH_SHORT).show();
+            } else if (id == R.id.nav_student_list){
+                getSupportActionBar().setTitle("Student list");
+                changeFragment(new FragmentStudentList());
             }
+
+
 
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
