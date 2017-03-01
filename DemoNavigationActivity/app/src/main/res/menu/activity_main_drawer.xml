@@ -22,6 +22,10 @@
             android:id="@+id/nav_student_list"
             android:icon="@drawable/ic_student"
             android:title="Student list" />
+        <item
+            android:id="@+id/nav_student_details"
+            android:icon="@drawable/ic_student"
+            android:title="Student Details" />
     </group>
 
     <item android:title="Communicate">
